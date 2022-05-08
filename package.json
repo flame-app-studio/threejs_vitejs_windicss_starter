@@ -30,7 +30,8 @@
     "init:project": "npm i && npx husky install",
     "lint:eslint": "npx eslint --fix main.js",
     "lint:prettier": "prettier -w main.js",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "version": "auto-changelog"
   },
   "dependencies": {
     "@fontsource/fira-code": "^4.5.9",
@@ -40,6 +41,7 @@
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
     "@types/three": "^0.140.0",
+    "auto-changelog": "^2.4.0",
     "eslint": "^8.15.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
