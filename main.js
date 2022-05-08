@@ -1,26 +1,33 @@
 import '@fontsource/fira-code'
-import * as THREE from 'three'
+import {
+  BoxGeometry,
+  Mesh,
+  MeshBasicMaterial,
+  PerspectiveCamera,
+  Scene,
+  WebGLRenderer
+} from 'three'
 import 'virtual:windi.css'
 import './style.css'
 
-const scene = new THREE.Scene()
+const scene = new Scene()
 
-const camera = new THREE.PerspectiveCamera(
+const camera = new PerspectiveCamera(
   75,
   window.innerWidth / window.innerHeight,
   0.1,
   1000
 )
 
-const render = new THREE.WebGLRenderer()
+const render = new WebGLRenderer()
 
 render.setSize(window.innerWidth, window.innerHeight)
 render.setPixelRatio(window.devicePixelRatio ? window.devicePixelRatio : 1)
 
-const geometry = new THREE.BoxGeometry(2, 2, 2)
-const material = new THREE.MeshBasicMaterial({ color: 'rgb(255, 0, 140)' })
+const geometry = new BoxGeometry(2, 2, 2)
+const material = new MeshBasicMaterial({ color: 'rgb(255, 0, 140)' })
 
-const cube = new THREE.Mesh(geometry, material)
+const cube = new Mesh(geometry, material)
 scene.add(cube)
 
 camera.position.z = 5

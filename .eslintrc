@@ -9,5 +9,7 @@
     "sourceType": "module"
   },
   "plugins": ["prettier"],
-  "rules": {}
+  "rules": {
+    "space-before-function-paren": "off"
+  }
 }

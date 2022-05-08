@@ -1,5 +1,7 @@
 {
-  "name": "three_js_cube",
+  "name": "threejs_vitejs_windicss_starter",
+  "version": "1.0.0",
+  "private": true,
   "description": "First three js traning project",
   "keywords": [
     "three.js",
@@ -11,26 +13,24 @@
     "windi.css",
     "traning"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flameapp-fr/wkg-ui.git"
+  },
+  "license": "MIT",
   "author": {
     "name": "Jean-Baptiste Thery",
     "email": "jb.thery@flameapp.fr",
     "url": "https://flameapp.fr"
   },
-  "license": "SEE LICENSE IN LICENCE FILE",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/flameapp-fr/wkg-ui.git"
-  },
-  "version": "1.0.0",
-  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "deploy": "npm run build && gh-pages -d dist",
-    "preview": "vite preview",
+    "init:project": "npm i && npx husky install",
     "lint:eslint": "npx eslint --fix main.js",
     "lint:prettier": "prettier -w main.js",
-    "init:project": "npm i && npx husky install"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fontsource/fira-code": "^4.5.9",
