@@ -2,7 +2,7 @@
   "name": "threejs_vitejs_windicss_starter",
   "version": "1.0.0",
   "private": true,
-  "description": "First three js traning project",
+  "description": "Three js, vitejs, windicss starter",
   "keywords": [
     "three.js",
     "3d",
