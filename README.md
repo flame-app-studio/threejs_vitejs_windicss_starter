@@ -32,6 +32,8 @@ Lighting fast three js developement starter.
 
 > **init:project ->** install project dependencies
 
+> **version ->** generate proeject changelog
+
 ## III. Requirements
 
 This project requires the following tools installed locally:
@@ -55,16 +57,6 @@ c) Start development server :
 ```
 npm run dev
 ```
-
-## V. Workflow
-
-For developement workflow please refer to the following frameworks documentations :
-
-**_Svelte documentation -> [https://svelte.dev/docs](https://svelte.dev/docs)_**
-
-**_Capacitor documentation -> [https://capacitorjs.com/docs](https://capacitorjs.com/docs)_**
-
-**_Tailwind documentation -> [https://tailwindcss.com/docs](ttps://tailwindcss.com/docs)_**
 
 <br/><br/>
 
