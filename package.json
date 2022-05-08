@@ -1,0 +1,55 @@
+{
+  "name": "three_js_cube",
+  "description": "First three js traning project",
+  "keywords": [
+    "three.js",
+    "3d",
+    "flameapp",
+    "thery jean-baptiste",
+    "javascript",
+    "vite.js",
+    "windi.css",
+    "traning"
+  ],
+  "author": {
+    "name": "Jean-Baptiste Thery",
+    "email": "jb.thery@flameapp.fr",
+    "url": "https://flameapp.fr"
+  },
+  "license": "SEE LICENSE IN LICENCE FILE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flameapp-fr/wkg-ui.git"
+  },
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "npm run build && gh-pages -d dist",
+    "preview": "vite preview",
+    "lint:eslint": "npx eslint --fix main.js",
+    "lint:prettier": "prettier -w main.js",
+    "init:project": "npm i && npx husky install"
+  },
+  "dependencies": {
+    "@fontsource/fira-code": "^4.5.9",
+    "three": "^0.140.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "@types/three": "^0.140.0",
+    "eslint": "^8.15.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "gh-pages": "^3.2.3",
+    "husky": "^7.0.4",
+    "prettier": "^2.6.2",
+    "vite": "^2.9.8",
+    "vite-plugin-windicss": "^1.8.4",
+    "windicss": "^3.5.1"
+  }
+}

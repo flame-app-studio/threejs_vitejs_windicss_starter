@@ -1,0 +1,11 @@
+body {
+  @apply text-white font-fira;
+}
+
+a {
+  @apply underline;
+}
+
+.title-separator {
+  @apply lowercase text-base mx-5;
+}
