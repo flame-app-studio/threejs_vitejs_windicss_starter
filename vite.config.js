@@ -3,7 +3,9 @@ import WindiCSS from 'vite-plugin-windicss'
 
 export default {
   base:
-    process.env === 'production' ? '/threejs_vitejs_windicss_starter/' : '/',
+    process.env.NODE_ENV === 'production'
+      ? '/threejs_vitejs_windicss_starter/'
+      : '/',
 
   publicDir: true,
 
