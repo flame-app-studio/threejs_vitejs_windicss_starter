@@ -1,0 +1,17 @@
+# humanstxt.org/
+
+# The humans responsible & technology colophon (sorted alphabetically)
+
+# BUSINESS
+  Name : FlameApp EURL
+  Site : flameapp.fr
+  Location : Montpellier, France
+
+
+# TEAM FLAMEAPP
+  Jean-Baptiste THERY -- https://www.linkedin.com/in/jean-baptiste-thery/
+
+# TECHNOLOGY COLOPHON
+
+  CSS, HTML5, JAVASCRIPT
+  THREE JS, VITE JS, WIND CSS
